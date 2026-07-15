@@ -1,8 +1,21 @@
 # Perfume-Review-Price-Analysis
-A project comparing mens perfume reviews and prices with the goal of being able to find the best reviewed perfumes for the lowest price.
 
+***Summary:***
+Mens perfume price and review score analysis using Python, webscraping, statistics and seaborn visualisations. 
+Goals were to find the best best reviewed perfumes for the lowest price and to explore correlation between price per ml and review score.
+Data for reviews and prices were webscraped from a perfume review site and price checking website using the selenium library and then joined into a single csv file.
+This data was processed in Python including regex expressions to split perfume names from amounts in ml. 
+This was then used to create a new column showing the price per ml for every perfume.
+Missing and duplicate values were removed or replaced with meaningful values and values were reformatted for consitency.
+Tables were created showing the top ten cheapest perfumes with a review score above 8/10 and the top ten reviewed perfumes under £50.
+A correlation and scatterplot was created to show the relationship between cost per ml and review score.
+
+#
+***Data Collection:***
 Perfume Prices were webscraped from a list of mens perfumes from the price checker site: https://pricespy.co.uk/c/perfume?98221=31505
-These were then saved to a dataframe for processing.
+Try except blocks were used to handle errors in the webscraping process.
+<img width="1090" height="680" alt="Image" src="https://github.com/user-attachments/assets/a6ef67bc-1360-493b-9e47-203b7e667096" />
+These were then saved to a dataframe for later processing.
 A list of perfume names was then created from this dataframe.
 A list of reviews for each perfume was webscraped from https://www.parfumo.com/ 
 Selenium was used to search for each perfume from the list of mens perfumes and append the reviews to a list and added to a dataframe.
