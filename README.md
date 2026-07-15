@@ -15,12 +15,21 @@ A correlation and scatterplot was created to show the relationship between cost 
 
 Perfume Prices were webscraped from a list of mens perfumes from the price checker site: https://pricespy.co.uk/c/perfume?98221=31505
 
+A for loop was used to search through all 110 pages of the review site.
 Try except blocks were used to handle errors in the webscraping process.
+Name and price were stored as lists and then used to create a dataframe. 
+
 <img width="1090" height="680" alt="Image" src="https://github.com/user-attachments/assets/a6ef67bc-1360-493b-9e47-203b7e667096" />
-These were then saved to a dataframe for later processing.
+
+
 A list of perfume names was then created from this dataframe.
-A list of reviews for each perfume was webscraped from https://www.parfumo.com/ 
-Selenium was used to search for each perfume from the list of mens perfumes and append the reviews to a list and added to a dataframe.
+This list was then iterated over to webscrape the price for each one from:  from https://www.parfumo.com/ 
+A nested try except block was used to remove certain terms from the names when terms such as 'for men', 'for him' etc. caused errors in the search.
+<img width="1088" height="661" alt="Image" src="https://github.com/user-attachments/assets/069cc92e-17d0-4e26-955e-619937877c05" />
+
+
+
+
 The dataframes for prices and reviews were then joined on perfume name. The price per ml was calculated by dividing the price by the ml size of each perfume.
 
 Finding the top 10 perfumes with reviews above 8/10 and then sorting for the lowest cost per ml:
