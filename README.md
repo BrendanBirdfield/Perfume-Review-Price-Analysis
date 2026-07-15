@@ -24,14 +24,31 @@ Name and price were stored as lists and then used to create a dataframe.
 
 A list of perfume names was then created from this dataframe.
 
-This list was then iterated over to webscrape the price for each one from:  from https://www.parfumo.com/ 
+This list was then iterated over to webscrape the review for each one from:  from https://www.parfumo.com/ 
+
 A nested try except block was used to remove certain terms from the names when terms such as 'for men', 'for him' etc. caused errors in the search.
 <img width="1088" height="661" alt="Image" src="https://github.com/user-attachments/assets/069cc92e-17d0-4e26-955e-619937877c05" />
 
 
 
+***Data Cleaning/Processing:***
+Values in the price dataframe that contained errors from the webscraping process were dropped:
+<img width="1097" height="540" alt="Image" src="https://github.com/user-attachments/assets/1dd13029-7340-4f36-98a3-e5b6b02c064b" />
+
+Values for price that were too long were removed
+<img width="1095" height="47" alt="Image" src="https://github.com/user-attachments/assets/cabcb418-58e9-461a-8526-ceb69808be26" />
+
+The pound sign in the price column was removed aswell as comma values in order to convert price into a float value.
+<img width="1093" height="49" alt="Image" src="https://github.com/user-attachments/assets/6dbf9641-6e57-4896-84e9-73d7068d247d" />
+<img width="1093" height="85" alt="Image" src="https://github.com/user-attachments/assets/4af34ee0-bdfb-4f07-9e97-95d154135da4" />
+
+
+
+
 
 The dataframes for prices and reviews were then joined on perfume name. The price per ml was calculated by dividing the price by the ml size of each perfume.
+
+
 
 Finding the top 10 perfumes with reviews above 8/10 and then sorting for the lowest cost per ml:
 
