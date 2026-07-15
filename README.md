@@ -12,7 +12,9 @@ A correlation and scatterplot was created to show the relationship between cost 
 
 #
 ***Data Collection:***
+
 Perfume Prices were webscraped from a list of mens perfumes from the price checker site: https://pricespy.co.uk/c/perfume?98221=31505
+
 Try except blocks were used to handle errors in the webscraping process.
 <img width="1090" height="680" alt="Image" src="https://github.com/user-attachments/assets/a6ef67bc-1360-493b-9e47-203b7e667096" />
 These were then saved to a dataframe for later processing.
