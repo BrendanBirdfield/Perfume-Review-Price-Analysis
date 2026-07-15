@@ -23,6 +23,7 @@ Name and price were stored as lists and then used to create a dataframe.
 
 
 A list of perfume names was then created from this dataframe.
+
 This list was then iterated over to webscrape the price for each one from:  from https://www.parfumo.com/ 
 A nested try except block was used to remove certain terms from the names when terms such as 'for men', 'for him' etc. caused errors in the search.
 <img width="1088" height="661" alt="Image" src="https://github.com/user-attachments/assets/069cc92e-17d0-4e26-955e-619937877c05" />
