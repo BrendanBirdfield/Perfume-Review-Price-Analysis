@@ -30,8 +30,9 @@ A nested try except block was used to remove certain terms from the names when t
 <img width="1088" height="661" alt="Image" src="https://github.com/user-attachments/assets/069cc92e-17d0-4e26-955e-619937877c05" />
 
 
-
+#
 ***Data Cleaning/Processing:***
+
 Values in the price dataframe that contained errors from the webscraping process were dropped:
 <img width="1097" height="540" alt="Image" src="https://github.com/user-attachments/assets/1dd13029-7340-4f36-98a3-e5b6b02c064b" />
 
@@ -42,6 +43,11 @@ The pound sign in the price column was removed aswell as comma values in order t
 <img width="1093" height="49" alt="Image" src="https://github.com/user-attachments/assets/6dbf9641-6e57-4896-84e9-73d7068d247d" />
 <img width="1093" height="85" alt="Image" src="https://github.com/user-attachments/assets/4af34ee0-bdfb-4f07-9e97-95d154135da4" />
 
+Duplicate values in the name column were dropped.
+<img width="1095" height="318" alt="Image" src="https://github.com/user-attachments/assets/4c64def0-5c48-44db-8bf4-45da2dc7f788" />
+
+Regex / regular expressions was used to seperate the amount eg. "100ml" from the name of the perfume.
+<img width="1095" height="677" alt="Image" src="https://github.com/user-attachments/assets/36e31c2b-9961-4830-ab5d-1efd08d6432c" />
 
 
 
