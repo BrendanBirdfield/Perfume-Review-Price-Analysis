@@ -74,7 +74,7 @@ One last data check was performed to assess missing values and data types
 <img width="1093" height="251" alt="Image" src="https://github.com/user-attachments/assets/b6766096-8153-4a20-a1ac-ff1ea8b68079" />
 
 #
-***Results / Final Output***
+***Results / Final Output:***
 
 Finding the top 10 perfumes with reviews above 8/10 and then sorting for the lowest cost per ml:
 
@@ -100,4 +100,4 @@ A very weak correlation of 0.08 was found showing that price is a bad estimate o
 This may have been partially moderated by reviewers taking into account price value when reviewing perfumes.
 <img width="1202" height="167" alt="Image" src="https://github.com/user-attachments/assets/192051f1-83de-420c-bc10-6b563062e73d" />
 
-<img width="1202" height="581" alt="Image" src="https://github.com/user-attachments/assets/8286d9d2-d085-460a-afd9-b42f31be7079" />
+<img width="1103" height="569" alt="Image" src="https://github.com/user-attachments/assets/f301888d-0c22-473a-bf29-698488191013" />
