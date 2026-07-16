@@ -64,7 +64,17 @@ Merged the price and review dataframes on the name column.
 Used the price and amount column to create a new 'cost per ml' column
 <img width="1095" height="53" alt="Image" src="https://github.com/user-attachments/assets/f97d1767-0906-4163-84f0-8ccbf38643f9" />
 
+As a final data check, histograms were created of each numerical column to check the distribution showing outliers for price
+<img width="1089" height="506" alt="Image" src="https://github.com/user-attachments/assets/6051b924-2c07-41ce-928d-30d2022cfe5b" />
 
+After checking the price of this specific perfume online. changed the price from £3500 to the correct £35
+<img width="1104" height="434" alt="Image" src="https://github.com/user-attachments/assets/dcd087c3-7a1c-4b2f-bcb8-034ed90a3fd1" />
+
+One last data check was performed to assess missing values and data types
+<img width="1093" height="251" alt="Image" src="https://github.com/user-attachments/assets/b6766096-8153-4a20-a1ac-ff1ea8b68079" />
+
+
+***Results / Final Output***
 
 Finding the top 10 perfumes with reviews above 8/10 and then sorting for the lowest cost per ml:
 
