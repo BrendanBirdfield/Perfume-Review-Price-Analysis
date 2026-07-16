@@ -73,24 +73,24 @@ After checking the price of this specific perfume online. changed the price from
 One last data check was performed to assess missing values and data types
 <img width="1093" height="251" alt="Image" src="https://github.com/user-attachments/assets/b6766096-8153-4a20-a1ac-ff1ea8b68079" />
 
-
+#
 ***Results / Final Output***
 
 Finding the top 10 perfumes with reviews above 8/10 and then sorting for the lowest cost per ml:
 
-<img width="1204" height="397" alt="Image" src="https://github.com/user-attachments/assets/7f2327b1-a6df-435f-adaf-8b008be1b7ab" />
+<img width="1093" height="394" alt="Image" src="https://github.com/user-attachments/assets/e5471e70-deaa-4186-859e-09fc9d5373e2" />
 
 
 
 Finding the top 10 perfumes sorted first by highest review and then by lowest cost per ml:
 
-<img width="1196" height="401" alt="Image" src="https://github.com/user-attachments/assets/0c92f5bb-7b75-491e-a955-50b7a9f3a61f" />
+<img width="1090" height="391" alt="Image" src="https://github.com/user-attachments/assets/b5ba2bdc-4bdd-4e04-94b0-4f410a565271" />
 
 
 
 What are the best reviewed mens perfumes for less than £50?
 
-<img width="1198" height="399" alt="Image" src="https://github.com/user-attachments/assets/8edbcb91-cf8e-4f6a-8352-cf737d9a5e8d" />
+<img width="1097" height="390" alt="Image" src="https://github.com/user-attachments/assets/bd3719ae-e669-4e63-a14b-82c2b3dcf2c5" />
 
 
 
