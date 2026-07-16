@@ -49,10 +49,20 @@ Duplicate values in the name column were dropped.
 Regex / regular expressions was used to seperate the amount eg. "100ml" from the name of the perfume.
 <img width="1095" height="677" alt="Image" src="https://github.com/user-attachments/assets/36e31c2b-9961-4830-ab5d-1efd08d6432c" />
 
+The review score column from the reviews webscraped dataframe was reduced to include just the number and then converted to an integer data type.
+<img width="1090" height="89" alt="Image" src="https://github.com/user-attachments/assets/cf2e5d58-be51-45d9-957b-252a16830e9e" />
 
+Checked for duplicate values and dropped them.
+<img width="1093" height="122" alt="Image" src="https://github.com/user-attachments/assets/6d62839d-b938-4207-8611-196180a78a8d" />
 
+In order to merge the review dataframe with the price dataframe the names of the perfumes needed to be reformatted in the price dataframe to remove strings like edt or edp so that the perfume names matched.
+<img width="1098" height="61" alt="Image" src="https://github.com/user-attachments/assets/300037a8-4ced-4983-8851-e2e91cd36013" />
 
-The dataframes for prices and reviews were then joined on perfume name. The price per ml was calculated by dividing the price by the ml size of each perfume.
+Merged the price and review dataframes on the name column.
+<img width="1095" height="43" alt="Image" src="https://github.com/user-attachments/assets/d531f817-bff7-4020-92f7-b0f2a34a086e" />
+
+Used the price and amount column to create a new 'cost per ml' column
+<img width="1095" height="53" alt="Image" src="https://github.com/user-attachments/assets/f97d1767-0906-4163-84f0-8ccbf38643f9" />
 
 
 
